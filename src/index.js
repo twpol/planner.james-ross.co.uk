@@ -2,5 +2,5 @@
 
 import './index.less'
 
-import index from './index.html'
-document.body.innerHTML = index
+import index from './index.hbs'
+document.body.innerHTML = index({ info: 'World!' })

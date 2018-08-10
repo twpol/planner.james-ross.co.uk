@@ -25,9 +25,9 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.html$/,
+                test: /\.hbs$/,
                 use: [
-                    'html-loader',
+                    'handlebars-loader',
                 ],
             },
             {
